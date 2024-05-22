@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+body {
+    font-family: "Rubik", sans-serif;
+}
+
 
 /* header */
 .header_container {
@@ -22,6 +26,7 @@
 .header_container > p {
     text-align: center;
     line-height: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 
