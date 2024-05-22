@@ -35,12 +35,14 @@ for(let i = 0; i < ourTeam.length; i++){
     const teamMember = ourTeam[i];
     const teamContainerEl = document.querySelector(".team-cards");
     const teamMemberEl = document.createElement("article");
-    
+
     teamContainerEl.appendChild(teamMemberEl);
 
     const memberNameEl = document.createElement("h3");
     const memberRoleEl = document.createElement("p");
-    const memberPictureEl = document.createElement("p");
+    const memberPictureEl = document.createElement("img");
+
+    memberPictureEl.src = `./img/${teamMember.photo}`
 
     teamMemberEl.appendChild(memberNameEl);
     teamMemberEl.appendChild(memberRoleEl);
