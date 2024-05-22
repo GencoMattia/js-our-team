@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 
+
+/* general rules */
 .flex-centered {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+/* header */
 .header_container {
     flex-direction: column;
 }
@@ -18,4 +22,32 @@
 .header_container > p {
     text-align: center;
     line-height: 1.5rem;
+}
+
+
+/* main */
+.main_container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-cards > article {
+    width: calc((100% / 3) - 2rem);
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.5rem;
+    background-color: antiquewhite;
+    border-radius: .5rem;
+    padding-bottom: 1rem;
+}
+
+.team-cards > article > img {
+    width: 100%;
+    border-radius: .5rem .5rem 0 0;
 }
