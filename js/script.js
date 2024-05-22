@@ -33,9 +33,16 @@ const ourTeam = [
 
 for(let i = 0; i < ourTeam.length; i++){
     const teamMember = ourTeam[i];
-    teamContainerEl = document.querySelector(".team-cards");
-    teamMemberEl = document.createElement("article");
+    const teamContainerEl = document.querySelector(".team-cards");
+    const teamMemberEl = document.createElement("article");
     teamContainerEl.appendChild(teamMemberEl);
+    const memberNameEl = document.createElement("h3");
+    const memberRoleEl = document.createElement("p");
+    const memberPictureEl = document.createElement("img");
+    teamMemberEl.appendChild(memberNameEl);
+    teamMemberEl.appendChild(memberRoleEl);
+    teamMemberEl.appendChild(memberPictureEl);
+
     for (let key in teamMember) {
         console.log(key, teamMember[key]);
     }
