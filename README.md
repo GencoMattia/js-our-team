@@ -24,3 +24,4 @@ E ricordiamoci che console.log() è nostro amico!
 - aggiungere al giclo for in precedentemente aggiunto una creazione elemnto in cui appendere una stringa con tutte le informaizoni per ogni oggetto
 
 -----BONUS-------
+
