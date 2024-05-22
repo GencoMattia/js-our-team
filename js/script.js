@@ -29,6 +29,14 @@ const ourTeam = [
         role: "Graphic Designer",
         photo: "barbara-ramos-graphic-designer.jpg",
     }
-]
+];
+
+for(let i = 0; i < ourTeam.length; i++){
+    const teamMember = ourTeam[i];
+
+    for (let key in teamMember) {
+        console.log(key, teamMember[key]);
+    }
+}
 
 console.log(ourTeam)
