@@ -21,12 +21,14 @@ body {
 /* header */
 .header_container {
     flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .header_container > p {
     text-align: center;
     line-height: 1.5rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 
