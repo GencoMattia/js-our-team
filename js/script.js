@@ -38,19 +38,19 @@ for(let i = 0; i < ourTeam.length; i++){
 
     teamContainerEl.appendChild(teamMemberEl);
 
+    const memberPictureEl = document.createElement("img");
     const memberNameEl = document.createElement("h3");
     const memberRoleEl = document.createElement("p");
-    const memberPictureEl = document.createElement("img");
 
     memberPictureEl.src = `./img/${teamMember.photo}`
 
+    teamMemberEl.appendChild(memberPictureEl);
     teamMemberEl.appendChild(memberNameEl);
     teamMemberEl.appendChild(memberRoleEl);
-    teamMemberEl.appendChild(memberPictureEl);
 
+    memberPictureEl.append(teamMember.photo);
     memberNameEl.append(teamMember.name);
     memberRoleEl.append(teamMember.role);
-    memberPictureEl.append(teamMember.photo);
 
     for (let key in teamMember) {
         console.log(key, teamMember[key]);
