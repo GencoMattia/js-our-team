@@ -16,3 +16,11 @@ Organizzare i singoli membri in card/schede
 Consigli del giorno:
 Ragioniamo come sempre a step. Prima la logica in italiano e poi traduciamo in codice.
 E ricordiamoci che console.log() è nostro amico!
+
+
+------PASSAGGI-------
+- creare array di oggetti contenente le info date
+- creare un ciclo for per ogni oggetto nell'array che rimanda in ciclo for in che rimanda i dati di ogni singolo oggetto
+- aggiungere al giclo for in precedentemente aggiunto una creazione elemnto in cui appendere una stringa con tutte le informaizoni per ogni oggetto
+
+-----BONUS-------
