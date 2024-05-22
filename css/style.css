@@ -1,0 +1,21 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_container {
+    flex-direction: column;
+}
+
+.header_container > p {
+    text-align: center;
+    line-height: 1.5rem;
+}
